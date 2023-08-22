@@ -31,3 +31,4 @@ ENTRYPOINT ["fal"]
 
 # Install fal
 RUN pip install fal==0.3.0
+RUN pip install dbt-fal[redshift]
